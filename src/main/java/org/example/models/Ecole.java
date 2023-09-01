@@ -1,5 +1,8 @@
 package org.example.models;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Ecole {
 
     private String nom;
@@ -10,6 +13,8 @@ public class Ecole {
     private String nomRue;
     private int codePostal;
     private String ville;
+
+    private List<Etudiant> etudiants;
 
     public String getNom() {
         return nom;
@@ -73,5 +78,18 @@ public class Ecole {
 
     public void setVille(String ville) {
         this.ville = ville;
+    }
+
+    public void addEtudiant(Etudiant etudiant){
+        if(this.etudiants==null){
+           this.etudiants = new ArrayList<>();
+        }
+        this.etudiants.add(etudiant);
+        etudiant.setEcole(this);
+    }
+    public void showEtudiants(){
+        for(Etudiant etudiant: etudiants){
+            etudiant.sePresenter();
+        }
     }
 }

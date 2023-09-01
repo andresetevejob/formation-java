@@ -66,7 +66,7 @@ public class Etudiant {
         this.ecole = ecole;
     }
 
-    public void sepresenter() {
+    public void sePresenter() {
         System.out.println("Bonjour je m'appel" + nom + ' ' + prenom + " j'ai " + age +
                 " et j'étudie le developpement d'application chez " + ecole.getNom());
     }
