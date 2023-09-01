@@ -1,6 +1,12 @@
 package org.example;
 
+<<<<<<< HEAD
 import org.example.models.*;
+=======
+import org.example.models.Adresse;
+import org.example.models.Data;
+import org.example.models.Personne;
+>>>>>>> ff63493 (save new Data class)
 
 /**
  * Hello world!
@@ -24,6 +30,7 @@ public class App
         adresse1.setVille("VilleJuif");
         personne1.setAdresse(adresse1);
 
+<<<<<<< HEAD
         Moteur moteur1 = new Moteur();
         moteur1.setType("Essence");
         moteur1.setNbrChevaux(80);
@@ -54,6 +61,10 @@ public class App
         etudiant1.setClasse("Terminale B");
         etudiant1.setEcole(ecole1);
         etudiant1.sepresenter();
+=======
+        Data data = new Data();
+        data.callAbout();
+>>>>>>> ff63493 (save new Data class)
     }
 
 
