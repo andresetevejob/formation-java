@@ -34,5 +34,25 @@ public class University {
         ecole1.addEtudiant(etudiant1);
         ecole1.addEtudiant(etudiant2);
         ecole1.showEtudiants();
+
+        Ecole ecole2 = new Ecole();
+        ecole2.setNom("Lycee Sacré Coeur");
+        ecole2.setSuperficie("500,26m²");
+        ecole2.setNbrClasses(50);
+        ecole2.setNbrProfesseurs(100);
+        ecole2.setNumRue(15);
+        ecole2.setNomRue("Rue General de Gaulle");
+        ecole2.setCodePostal(95000);
+        ecole2.setVille("Paris");
+
+        Etudiant etudiant3 = new Etudiant();
+        etudiant3.setSexe("Garçon");
+        etudiant3.setNom("Ben");
+        etudiant3.setPrenom("Thomas");
+        etudiant3.setAge(27);
+        etudiant3.setTaille("1m82");
+        etudiant3.setClasse("Terminale B");
+
+        ecole2.addEtudiant(etudiant3);
     }
 }

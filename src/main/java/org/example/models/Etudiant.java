@@ -1,7 +1,6 @@
 package org.example.models;
 
 public class Etudiant {
-
     private String sexe;
     private String nom;
     private String prenom;
@@ -9,7 +8,6 @@ public class Etudiant {
     private String taille;
     private String classe;
     private Ecole ecole;
-
     public String getSexe() {
         return sexe;
     }
