@@ -19,5 +19,7 @@ public class BookConteneur {
         books.remove(book);
 
         System.out.println(books.size());
+
+
     }
 }

@@ -46,4 +46,8 @@ public abstract class User {
     public void setPwd(String pwd) {
         this.pwd = pwd;
     }
+
+    public void presenteToi() {
+        System.out.println("Le nom de l'administrateur sera " + nom+ " son prénom sera " + prenom);
+    }
 }
