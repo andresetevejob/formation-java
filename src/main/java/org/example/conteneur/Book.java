@@ -22,6 +22,11 @@ public class Book {
         this.title = title;
     }
 
+    /**
+     *
+     * @param o
+     * @return
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

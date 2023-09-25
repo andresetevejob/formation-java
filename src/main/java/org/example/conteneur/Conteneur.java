@@ -18,7 +18,6 @@ public class Conteneur {
         words.add("word 9");
         words.add("word 10");
         words.add("word 11");
-        //words.add(1,"mon elements");
         words.add("mon elements");
         System.out.println(words.size());
         words.remove("mon elements");
